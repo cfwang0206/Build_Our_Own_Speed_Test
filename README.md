@@ -16,13 +16,20 @@ Project  # Build_Our_Own_Speed_Test 0.0.0 # include:
 
 #REF: 
 1.https://github.com/wnmp/wnmp/releases
+
 2.https://filezilla-project.org/download.php?type=server
+
 3.https://www.speedtest.net/mini
+
 5.https://www.fast-air.net/speedtest/
+
 .TFGEN 0.7 Tfgen traffic generator vers 0.7 Copyright (C) 1996-1997 K.YumotoChinese , A good traffic (unicast, multicast and broadcast)generator for testing.
 Tfgen traffic generator vers 0.7 , http://afeng.logdown.com/posts/732444-tfgen-traffic-generator-chinese-version
+
 6.https://iperf.fr/
+
 6.https://filezilla-project.org/
+
 7.NetMeterEvo,https://netmeter-evo.en.lo4d.com/windows
 
 
@@ -61,6 +68,28 @@ FileZilla Server Interface.exe
 權限:/ 可下載 10MB~1GB 檔案做下行測試
      /upload 可上傳/刪除檔案做上行測試
 
+FileZilla FTP Server 免安裝版
+# 啟動Server
+"FileZilla Server.exe" /compat /start
+
+#關閉Server
+"FileZilla Server.exe" /compat /stop
+
+###以下要有管理員權限###
+#安裝服務
+"FileZilla Server.exe" /install
+
+#解除服務
+"FileZilla Server.exe" /uninstall
+
+#自訂服務名稱(注意 FileZilla Server.XML 可以讀寫)，執行檔可以複製更改名稱為喜歡的名字
+"5566Server.exe" /servicename 5566FTPD
+"5566Server.exe" /servicedisplayname 5566 FTP SERVER Service
+"5566Server.exe" /install
+
+#
+FileZilla Wiki - Command-line arguments (Server) ,https://wiki.filezilla-project.org/Command-line_arguments_(Server)
+
 #啟動 FTP 伺服器:
 Lazy - 1.啟動 FTP Server.cmd
 
@@ -90,11 +119,18 @@ A3:下載 http://c.speedtest.net/mini/mini.zip ，
 ---
 #REF: 
 1.https://github.com/wnmp/wnmp/releases
+
 2.https://filezilla-project.org/download.php?type=server
+
 3.https://www.speedtest.net/mini
+
 5.https://www.fast-air.net/speedtest/
+
 .TFGEN 0.7 Tfgen traffic generator vers 0.7 Copyright (C) 1996-1997 K.YumotoChinese , A good traffic (unicast, multicast and broadcast)generator for testing.
 Tfgen traffic generator vers 0.7 , http://afeng.logdown.com/posts/732444-tfgen-traffic-generator-chinese-version
+
 6.https://iperf.fr/
+
 6.https://filezilla-project.org/
+
 7.NetMeterEvo,https://netmeter-evo.en.lo4d.com/windows
